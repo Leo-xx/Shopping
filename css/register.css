@@ -1,0 +1,124 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    height: 84px;
+    border-bottom: 2px solid #c07178;
+}
+.logo {
+    padding-top: 18px;
+}
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.login {
+    float: right;
+    font-size: 14px;
+}
+.login a {
+    color: #c81523;
+}
+.registerarea_bd {
+    width: 600px;
+    height: 380px;
+    margin: 52px auto;
+}
+.registerarea_bd ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    color: #4c4c4c;
+    font-size: 14px;
+}
+.registerarea_bd ul li .inp {
+    width: 238px;
+    height: 36px;
+}
+.registerarea_bd ul li {
+    margin-bottom: 30px;
+}
+.registerarea_bd ul .security {
+    padding-left: 180px;
+}
+.registerarea_bd ul li .ruo {
+    display: inline-block;
+    width: 36px;
+    height: 14px;
+    background-color: #de1111;
+    text-align: center;
+    line-height: 14px;
+}
+.registerarea_bd ul li .zhong {
+    display: inline-block;
+    width: 36px;
+    height: 14px;
+    background-color: #f79100;
+    text-align: center;
+    line-height: 14px;
+}
+.registerarea_bd ul li .qiang {
+    display: inline-block;
+    width: 36px;
+    height: 14px;
+    background-color: #40b83f;
+    text-align: center;
+    line-height: 14px;
+}
+/* 默认提示信息 */
+.registerarea_bd ul li .notice {
+    color: lightskyblue;
+    font-size: 12px;
+    font-family: "icomoon";
+    vertical-align: middle;
+}
+/* 输入错误提示信息 */
+.registerarea_bd ul li .error {
+    color: #df3033;
+    font-size: 12px;
+    font-family: "icomoon";
+    vertical-align: middle;
+}
+/* 输入正确提示信息 */
+.registerarea_bd ul li .sucess {
+    color: #40b83f;
+    font-size: 12px;
+    font-family: "icomoon";
+    vertical-align: middle;
+}
+
+.registerarea_bd ul .agree {
+    margin-left: 140px;
+    text-align: center;
+    width: 235px;
+    height: 26px;
+    line-height: 26px;
+    vertical-align: middle;
+}
+.registerarea_bd ul .agree input {
+    vertical-align: middle;
+}
+.registerarea_bd ul li button {
+    width: 200px;
+    height: 35px;
+    background-color: #df3033;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    border: 0;
+    margin-left: 140px;
+}
+.xieyi {
+    color: blue;
+}

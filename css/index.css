@@ -1,0 +1,553 @@
+.nav {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+.nav .allsorts {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+.nav .sorts {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #333333;
+}
+.nav .sorts ul li {
+    float: left;
+    padding-left: 50px;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* banner区域 */
+.banner {
+    height: 478px;
+}
+.banner .sidenav {
+    float: left;
+    height: 466px;
+    width: 210px;
+    background-color: #c81623;
+}
+.banner .sidenav ul li {
+    display: inline-block;
+    height: 31px;
+    width: 200px;
+    line-height: 31px;
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+.banner .sidenav ul li a {
+    color: #ffffff;
+    font-size: 14px;
+}
+.banner .sidenav ul li::after {
+    float: right;
+    font-family: "icomoon";
+    content: "";
+    font-size: 14px;
+    margin-right: 10px;
+}
+.banner .sidenav ul li:hover {
+    background-color: #ffffff;
+    color: #c81623;
+}
+.banner .sidenav ul li:hover a {
+    color: #c81623;
+}
+.banner .pic {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 456px;
+    margin: 10px 9px;
+    background-color: pink;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.banner .pic ul li img {
+    width: 721px;
+    height: 456px;
+}
+.banner .pic .arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    width: 30px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: "icomoon";
+    font-size: 30px;
+    color: white;
+    top: 50%;
+    z-index: 2;
+}
+.banner .pic .arrow-r {
+    display: none;
+    left: 100%;
+    margin-left: -30px;
+}
+
+.banner .pic .circle {
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    text-align: center;
+    margin-left: -16px;
+}
+.banner .pic .circle li {
+    float: left;
+    height: 8px;
+    width: 8px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    border-color: white;
+    margin: 8px;
+    cursor: pointer;
+}
+.banner .pic .circle .current {
+    background: tomato;
+}
+.banner .pic img {
+    width: 100%;
+    height: 100%;
+}
+.banner .pic ul {
+    width: 500%;
+    position: absolute;
+}
+.banner .pic ul li {
+    float: left;
+}
+.banner .sidenavr {
+    float: left;
+    width: 249px;
+    height: 456px;
+    margin-top: 10px;
+    /* background-color: pink; */
+    border: 1px solid #e4e4e4;
+}
+.banner .sidenavr .tittle {
+    height: 33px;
+    line-height: 33px;
+    font-size: 14px;
+    color: #333333;
+    padding: 0 15px;
+    border-bottom: 1px dashed #e8e8e7;
+}
+.banner .sidenavr .tittle h4 {
+    float: left;
+    width: 110px;
+}
+.banner .sidenavr .tittle a {
+    float: right;
+}
+.banner .sidenavr .tittle a::after {
+    font-family: "icomoon";
+    content: "";
+    font-size: 14px;
+    float: right;
+}
+
+.banner .sidenavr .information {
+    height: 126px;
+    padding-left: 16px;
+    padding-top: 6px;
+    /* background-color: pink; */
+}
+.banner .sidenavr .information ul li {
+    height: 24px;
+    line-height: 24px;
+}
+.banner .sidenavr .information ul li h4 {
+    float: left;
+}
+.banner .sidenavr .information ul li a {
+    float: left;
+}
+.banner .sidenavr .icon {
+    height: 210px;
+    margin-bottom: 5px;
+}
+.banner .sidenavr .icon .littleicon {
+    float: left;
+    width: 62px;
+    height: 72px;
+    border: 1px solid #e8e8e7;
+    margin: -1px -1px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+.banner .sidenavr .icon .littleicon div {
+    background: url(../images/icons.png) no-repeat;
+    height: 46px;
+}
+.banner .sidenavr .icon .littleicon .icon2 {
+    background-position: -61px 0px;
+}
+.banner .sidenavr .icon .littleicon .icon3 {
+    background-position: -122px 0px;
+}
+.banner .sidenavr .icon .littleicon .icon4 {
+    background-position: -186px 0px;
+}
+.banner .sidenavr .icon .littleicon .icon5 {
+    background-position: 0px -72px;
+}
+.banner .sidenavr .icon .littleicon .icon6 {
+    background-position: -58px -72px;
+}
+.banner .sidenavr .icon .littleicon .icon7 {
+    background-position: -122px -72px;
+}
+.banner .sidenavr .icon .littleicon .icon8 {
+    background-position: -186px -72px;
+}
+.banner .sidenavr .icon .littleicon .icon9 {
+    background-position: 0px -141px;
+}
+.banner .sidenavr .icon .littleicon .icon10 {
+    background-position: -61px -141px;
+}
+.banner .sidenavr .icon .littleicon .icon11 {
+    background-position: -121px -135px;
+}
+.banner .sidenavr .icon .littleicon .icon12 {
+    background-position: -187px -139px;
+}
+
+.banner .sidenavr .advertisement {
+    height: 70px;
+    padding-top: 5px;
+}
+.banner .sidenavr .advertisement img {
+    height: 100%;
+    width: 100%;
+}
+
+/* 今日推荐区域 recommendation*/
+.recommendation {
+    height: 163px;
+}
+.recommendation .today {
+    float: left;
+    width: 206px;
+    height: 163px;
+    background-color: #5c5251;
+}
+.recommendation .pic {
+    float: left;
+    height: 163px;
+    width: 247px;
+}
+.recommendation .today .clock {
+    width: 90px;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    font-family: "icomoon";
+    margin-top: 32px;
+    font-size: 62px;
+    margin-left: 55px;
+    color: white;
+}
+.recommendation .today .text {
+    height: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.recommendation .line {
+    float: left;
+    height: 144px;
+    background-color: #dddddd;
+    width: 1px;
+    margin-top: 10px;
+}
+.recommendation .pic img {
+    height: 100%;
+    width: 100%;
+}
+.recommendation .bgc {
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+/* 猜你喜欢 guess区域 */
+.guess {
+    height: 293px;
+}
+.guess .tittle {
+    height: 60px;
+    /* line-height: 80px; */
+}
+.guess .tittle h4 {
+    float: left;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 30px;
+}
+.guess .tittle .change {
+    float: right;
+    height: 30px;
+    margin-top: 30px;
+    color: #666666;
+    font-size: 12px;
+}
+.guess .tittle .change::after {
+    margin-right: 20px;
+    margin-left: 10px;
+    content: "";
+    font-family: "icomoon";
+    font-size: 16px;
+    cursor: pointer;
+}
+.guess .product {
+    height: 234px;
+    border: 1px solid #dddddd;
+}
+.guess .product .detailed {
+    float: left;
+    width: 200px;
+    height: 233px;
+    cursor: pointer;
+    /* background-color: pink; */
+}
+.guess .product .detailed:last-child {
+    width: 198px;
+}
+.guess .product .detailed .pic {
+    display: inline-block;
+    height: 156px;
+}
+.guess .product .detailed .pic img {
+    width: 100%;
+    height: 100%;
+}
+.guess .product .detailed .sideline {
+    display: inline-block;
+    border-left: 1px solid #dddddd;
+}
+.guess .product .detailed span p {
+    height: 35px;
+    margin-left: 44px;
+    font-size: 12px;
+    color: #666666;
+}
+.guess .product .detailed span .price {
+    height: 38px;
+    line-height: 38px;
+    color: #df3033;
+    font-size: 18px;
+    margin-left: 44px;
+}
+.guess .product .detailed span .price::before {
+    float: left;
+    content: "";
+    font-family: "icomoon";
+    font-size: 24px;
+    line-height: 38px;
+}
+
+/* 传智播客有趣区 interest  */
+.interest {
+    height: 464px;
+}
+.interest .tittle {
+    height: 59px;
+}
+.interest .tittle h4 {
+    float: left;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333333;
+}
+.interest .bd {
+    height: 407px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+}
+.interest .bd .book {
+    float: left;
+    height: 405px;
+}
+.interest .bd .book a {
+    display: inline-block;
+}
+.interest .bd .book img {
+    height: 100%;
+}
+.interest .bd .good {
+    float: left;
+    width: 228px;
+    height: 405px;
+    border-left: 1px solid #dddddd;
+}
+.interest .bd .good .good1 {
+    height: 192px;
+    width: 228px;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 15px;
+}
+.interest .bd .good .good1 img {
+    width: 100%;
+    height: 80%;
+}
+.interest .bd .good .good2 {
+    height: 147px;
+    padding-top: 10px;
+}
+.interest .bd .tittle {
+    height: 40px;
+    margin: 0 18px;
+    border-bottom: 1px dashed #dddddd;
+    text-align: center;
+    line-height: 40px;
+}
+.interest .bd .tittle p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.interest .bd .brand {
+    float: left;
+    height: 405px;
+    width: 408px;
+    border-left: 1px solid #dddddd;
+    background-color: #f7f7f7;
+}
+.interest .bd .logo {
+    float: left;
+    height: 405px;
+    width: 155px;
+    border-left: 1px solid #dddddd;
+}
+.interest .bd .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 楼层区域 */
+/* 家电区域 floor */
+.floor .jd .jd_tittle {
+    height: 60px;
+    border-bottom: 2px solid #c81623;
+    line-height: 60px;
+}
+.floor .jd .jd_tittle h3 {
+    float: left;
+    font-weight: 500px;
+    color: #c81623;
+}
+.floor .jd .jd_tittle .tab_list {
+    float: right;
+}
+.floor .jd .jd_tittle .tab_list ul li {
+    float: left;
+}
+.floor .jd .jd_tittle .tab_list ul li a {
+    margin: 0 15px;
+}
+.style_red {
+    color: #c81623;
+}
+.floor .jd .jd_bd {
+    height: 360px;
+    border-bottom: 1px solid #dddddd;
+}
+.floor .jd .jd_bd .floor_bd1 {
+    float: left;
+    width: 210px;
+    height: 360px;
+    text-align: center;
+}
+.floor .jd .jd_bd .floor_bd2 {
+    float: left;
+    width: 329px;
+    height: 360px;
+}
+.floor .jd .jd_bd .floor_bd3 {
+    float: left;
+    width: 220px;
+    height: 360px;
+    text-align: center;
+}
+
+.floor .jd .jd_bd .box2 {
+    height: 180px;
+}
+.floor .jd .jd_bd .box1 {
+    border-bottom: 1px solid #dddddd;
+    height: 181px;
+}
+
+.floor .jd .jd_bd .floor_bd4 {
+    float: left;
+    width: 219px;
+    height: 360px;
+    text-align: center;
+    border-left: 1px solid #dddddd;
+}
+.floor .jd .jd_bd .floor_bd5 {
+    float: left;
+    width: 219px;
+    height: 360px;
+    border-left: 1px solid #dddddd;
+    text-align: center;
+}
+.floor .jd .jd_bd .floor_bd1 ul li {
+    float: left;
+    height: 33px;
+    width: 85px;
+    line-height: 33px;
+    border-bottom: 1px solid #dddddd;
+    margin-right: 12px;
+}
+.floor .jd .jd_bd .floor_bd1 ul {
+    margin-left: 15px;
+    text-align: center;
+}
+.floor .jd img {
+    width: 100%;
+    height: 100%;
+}
+/* 家电底部样式 jd_footer */
+.floor .jd .jd_footer {
+    height: 65px;
+    margin-top: 21px;
+    background-color: #f7f7f7;
+}
+
+/* 热门疯抢区域 rush */
+.rush {
+    height: 343px;
+}
+.rush .rush_tittle {
+    height: 60px;
+    line-height: 60px;
+}
+.rush .rush_bd {
+    height: 282px;
+    border: 1px solid #dddddd;
+}
+.rush .rush_tittle h3 {
+    float: left;
+    font-size: 18px;
+    color: #333333;
+}
+.rush .rush_bd img {
+    width: 100%;
+    height: 100%;
+}

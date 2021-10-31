@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人注册</title>
+
+    <!-- 引入css文件 -->
+    <!-- 引入初始化CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共样式 用于底部 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入注册页面CSS -->
+    <link rel="stylesheet" href="css/register.css">
+    <!-- 引入logo图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- 引入注册页面JS -->
+    <script src="js/register.js"> </script>
+    <style>
+        /* 字体声明 */
+
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?vl1vso');
+            src: url('fonts/icomoon.eot?vl1vso#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?vl1vso') format('truetype'),
+                url('fonts/icomoon.woff?vl1vso') format('woff'),
+                url('fonts/icomoon.svg?vl1vso#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="w">
+        <!-- 头部区域 -->
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>
+        </header>
+        <!-- 注册区域 -->
+        <div class="registerarea">
+            <h3>注册新用户
+                <div class="login">我有账号，去<a href="">登录</a>
+                </div>
+            </h3>
+            <div class="registerarea_bd">
+                <ul>
+                    <li><label for="">手机号：</label><input type="text"class="inp phone"> <span class="notice info_phone">请输入手机号</span></li>
+                    <li><label for="">短信验证码：</label><input type="text"class="inp message"> <span class="notice info_message">请输入6位短信验证码</span></li>
+                    <li><label for="">登录密码：</label><input type="password"class="inp pwd"> <span class="notice info_pwd">请输入密码，不少于6位数</span></li>
+                    <li class="security">安全程度<span class="ruo">弱</span>
+                        <span class="zhong">中</span>
+                        <span class="qiang">强</span></li>
+                    <li><label for="">确认密码：</label><input type="password"class="inp"> <span class="notice">请确认密码</span></li>
+
+                    <li class="agree"><input type="checkbox">同意协议并注册，知晓<a href="#" class="xieyi">《用户协议》</a></li>
+                    <li class="but"><button>完成注册</button></li>
+                </ul>
+
+            </div>
+        </div>
+        <!-- 底部区域 -->
+        <footer>
+            <div class="footer3">
+                <div class="about">
+                    <ul>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li><a href="#">联系客服</a></li>
+                        <li><a href="#">商家入驻</a></li>
+                        <li><a href="#">营销中心</a></li>
+                        <li><a href="#">手机品优购</a></li>
+                        <li><a href="#">友情链接</a></li>
+                        <li><a href="#">销售联盟</a></li>
+                        <li><a href="#">品优购社区</a></li>
+                        <li><a href="#">品优购公益</a></li>
+                        <li><a href="#">English Site</a></li>
+                        <li><a href="#">Contact U</a></li>
+    
+                    </ul>
+                </div>
+                <div class="address">地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱:
+                    zhanghj+itcast.cn</div>
+                <div class="permit">京ICP备08001421号京公网安备110108007702</div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
